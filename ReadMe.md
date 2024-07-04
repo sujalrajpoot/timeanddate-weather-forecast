@@ -8,7 +8,7 @@ You can extract weather data from the following URL: [https://www.timeanddate.co
 ```python
 
 url = 'https://www.timeanddate.com/weather/uk/london'
-weather_data = TimeAndDate.extract_weather_data(url)
+weather_data = timeanddate.extract_weather_data(url)
 print(weather_data)
 
 The script will output a dictionary with the following keys:
