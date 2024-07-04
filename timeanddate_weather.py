@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-class timeanddate:
+class TimeAndDate:
     """A class to extract weather data from a given URL from timeanddate.com website.\n\nExample: https://www.timeanddate.com/weather/uk/london
     \nOutput: {'temperature': '15 °C', 'visibility': 'N/A', 'pressure': '1005 mbar', 'humidity': '82%', 'dew_point': '12 °C', 'feels_like': '14 °C', 'forecast': '19 °C to 13 °C', 'wind': '17 km/h from West'}"""
     
@@ -80,4 +80,4 @@ class timeanddate:
             return None
         
 if __name__=='__main__':
-    print(timeanddate.extract_weather_data(url='https://www.timeanddate.com/weather/uk/london'))
+    print(TimeAndDate.extract_weather_data(url='https://www.timeanddate.com/weather/uk/london'))
