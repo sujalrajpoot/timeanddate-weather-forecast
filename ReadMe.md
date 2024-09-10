@@ -57,8 +57,9 @@ print("Humidity:", weather.humidity)
 print("Dew Point:", weather.dew_point)
 print("Wind:", weather.wind)
 ```
+
+## Output:
 ```
-Output:
 Temperature: 15 °C
 Feels Like: 14 °C
 Forecast: 19 °C to 13 °C
